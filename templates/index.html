@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hungarian Crime Predictor</title>
+    <!-- Bootstrap CSS -->
+    <link rel="icon" href="static/images/overview.png" type="image/png">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="static/styles.css">  
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+  <!-- Top App Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand text-center" href="/">Hungarian Crime Predictor</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link fa fa-home" href="/"> Home</a>
+        </li>        
+            <li class="nav-item">
+                <a class="nav-link fa fa-info-circle" href="/About"> About</a>
+            </li>
+        </ul>        
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container flex-grow-1">
+    <div class="jumbotron text-center">
+        <div class="row align-items-center">
+            <div class="col-md-3 text-center">
+                <img src="static/images/logo.jpg" alt="Logo" class="logo img-fluid">
+            </div>
+            <div class="col-md-8">
+                <h1 class="display-4">Welcome to Hungarian Crime Predictor</h1>
+                <p class="lead">Leverage advanced analytics and machine learning to predict and prevent crime in Hungary.</p>
+                <hr class="my-4">
+                <p>Start exploring the features and make your community safer.</p>
+                <a class="btn btn-primary btn-lg" href="/About" role="button">Learn more</a>
+            </div>
+        </div>
+    </div>   
+
+    <!-- Form Section -->
+    <div class="form-section">
+      <form action="/predict" method="POST" class="p-4 bg-light rounded shadow-sm">
+          <div class="form-group">
+            <td class="label">
+              <label for="city-input">Enter City Name</label>
+              <div class="alert alert-danger" role="alert">
+                Only Hungarian cities with more than 1,000 inhabitants are shown.
+              </div>
+            </td>
+            <td class="sel">
+              <div class="autocomplete-container">
+                <input type="text" name="city" id="city-input" autocomplete="off" />
+                <ul class="suggestions-list hidden"></ul>
+                {% if errors.get('city') %}
+                  <small class="form-text text-danger" id="cityError">{{ errors['city'] }}</small>
+                {% endif %}
+              </div>
+            </td>
+          </tr>
+          </div>
+          <div class="form-group">
+            <label for="crime-dropdown">
+                Select Crime Type <span style="color: red;">*</span>
+            </label>
+            <p style="font-size: small; color: grey;">
+                * _ means: Due to long investigations, old Penal Code crimes may be registered post July 1, 2013, starting with an underscore.
+            </p>
+            <select name="crime" id="crime-dropdown" class="form-control">
+                <option value="">Select the city first</option>
+            </select>           
+              {% if errors.get('crime') %}
+                <small class="form-text text-danger" id="crimeError">{{ errors['crime'] }}</small>
+              {% endif %}
+        </div>
+        
+          <div class="form-group">
+              <label for="year-dropdown">Select Year</label>
+              <select name="year" id="year-dropdown" class="form-control"></select>
+              {% if errors.get('year') %}
+                <small class="form-text text-danger" id="yearError">{{ errors['year'] }}</small>
+              {% endif %}
+          </div>
+          <div class="text-center">
+              <button type="submit" class="btn btn-primary">Predict</button>
+          </div>        
+      </form>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer bg-dark text-white text-center py-3">
+    <div class="container">           
+      <p class="mb-0">&copy; 2024 Hungarian Crime Predictor. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="static/main.js"></script>
+</body>
+</html>

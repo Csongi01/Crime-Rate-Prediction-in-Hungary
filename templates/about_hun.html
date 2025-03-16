@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rólunk</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="static/images/overview.png" type="image/png">
+    <link rel="stylesheet" href="static/styles.css">   
+</head>
+<body>   
+  <!-- Felső Alkalmazás Sáv -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand text-center" href="/">Bűncselekmények alakulásának előrejelzése Magyarországon</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link fa fa-home" href="/"> Főoldal</a>
+        </li>        
+            <li class="nav-item active">
+                <a class="nav-link fa fa-info-circle" href="/About"> Rólunk</a>
+            </li>
+        </ul>
+        <div class="lang-switcher ml-3">
+            <img src="static/images/england.png" alt="English" onclick="switchLanguage('en')" style="cursor: pointer;">
+            <img src="static/images/hungary.png" alt="Hungarian" onclick="switchLanguage('hu')" style="cursor: pointer;">
+        </div>
+    </div>
+  </nav>   
+    <div class="container">      
+        <div id="content-en">
+            <div class="jumbotron text-center">
+                <h1 class="display-6">Bűncselekmények alakulásának előrejelzése Magyarországon</h1>
+                <p class="lead">Egyetemi szakdolgozati projekt, amely gépi tanulást módszer felhasználva előre jelzi a bűnözési ráták alakulását az egyes bűncselekménytípusok esetében az 1000 főnél nagyobb népességű magyar településeken.</p>
+            </div>
+
+            <div class="row">
+                <!-- Projekt Áttekintés Kártya -->
+                <div class="card col-md-6">
+                    <div class="card-header">
+                        Projekt Áttekintés
+                    </div>
+                    <div class="card-body">
+                        <img src="static/images/overview.png" alt="Projekt Áttekintés">
+                        <div class="card-content">
+                            <p>A bűncselekmény előrejelző rendszer részletes elemzést nyújt a bűnözési ráták alakulásáról a police.hu adatainak felhasználásával. Az adatbázis nyilvános információkat tartalmaz az elkövetett bűncselekményekről 2009 és 2023 között. Az egyes bűncselekményekről az adatbázisban részletes információk állnak rendelkezésre, mint például típus, az elkövetés helye és éve, valamint a bűncselekmények száma.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Funkciók Kártya -->
+                <div class="card col-md-6">
+                    <div class="card-header">
+                        Elérhető funkciók
+                    </div>
+                    <div class="card-body">
+                        <img src="static/images/features.png" alt="Funkciók">
+                        <div class="card-content">                           
+                            <ul>
+                                <li><img src="static/images/handcuffs.png" alt="Bilincsek"> Bűnözési ráták előrejelzése idősoros adatok alapján.</li>
+                                <li><img src="static/images/handcuffs.png" alt="Bilincsek"> Települések osztályozása bűnözési ráták alapján.</li>
+                                <li><img src="static/images/handcuffs.png" alt="Bilincsek"> Interaktív vizualizációk és diagramok a bűnözési trendek illusztrálására.</li>
+                                <li><img src="static/images/handcuffs.png" alt="Bilincsek"> Magas kockázatú területek és a bűnözést befolyásoló tényezők elemzése.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Módszertan Kártya -->
+                <div class="card col-md-6">
+                    <div class="card-header">
+                        Módszertan
+                    </div>
+                    <div class="card-body">
+                        <img src="static/images/methodology.png" alt="Módszertan">
+                        <div class="card-content">
+                            <p>A RandomForestRegressor modell használatával a bűncselekmény előrejelző rendszer ~85%-os pontossággal működik. Ezt a pontosságot a gondos előfeldolgozás, és az adathalmaz körültekintő tisztítása révén valósult meg, melyek a következő folyamatokat foglalták magukba:</p>
+                           </br>
+                            <ul>
+                                <li><img src="static/images/handcuffs.png" alt="Bilincsek"> Hiányzó értékek és kiugró adatok kezelése.</li>
+                                <li><img src="static/images/handcuffs.png" alt="Bilincsek"> Adatok standardizálása és normalizálása.</li>
+                                <li><img src="static/images/handcuffs.png" alt="Bilincsek"> Kategorikus változók kódolása.</li>
+                                <li><img src="static/images/handcuffs.png" alt="Bilincsek"> Jellemzők kiválasztása, hogy csak a legrelevánsabb attribútumok maradjanak.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Jelentőség Kártya -->
+                <div class="card col-md-6">
+                    <div class="card-header">
+                       A projekt jelentősége
+                    </div>
+                    <div class="card-body">
+                        <img src="static/images/significance.png" alt="Jelentőség">
+                        <div class="card-content">
+                            <p>A projekt jelentőség, hogy a bűncselekmények alakulásának előrejelzésevel a rendvédelmi szervek képesek lesznek pontosabban meghatározni a bűncselekmények valószínű helyeit és időpontjait, elősegítve ezzel a megfelelő erőforrások elosztását és a közösségi biztonság növelését. A rendszer lehetővé teszi a bűnözési hot spot-ok azonosítását, a bűncselekmények megelőzését célzó programok tervezését és az adott településeken és közösségekben a bűncselekmények számának csökkentését.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>     
+    </div>
+
+    <footer class="footer">
+        <div class="container">           
+            <p class="mb-0">&copy; 2024 Magyar Bűnözés Előrejelző. Minden jog fenntartva.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS, Popper.js, és jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="static/about.js"></script>     
+   
+</body>
+</html>
