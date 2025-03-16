@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crime Rate Prediction</title>
+    <link rel="icon" href="static/images/favicon.png" type="image/png">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="static/styles.css">
+    <link rel="icon" href="static/images/overview.png" type="image/png">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand text-center" href="/">Hungarian Crime Predictor</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link fa fa-home" href="/"> Home</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link fa fa-info-circle" href="/About"> About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Prediction Section -->
+    <section class="prediction container mt-6">
+        <div class="row">
+            <div class="col-md-6">
+                <table class="table table-borderless">
+                    <tbody>
+                        <tr>
+                            <td class="label">
+                                <label>Selected City Name:</label>
+                            </td>
+                            <td>
+                                <select class="form-control" name="city" id="city">
+                                    <option value="selected">{{city_name}}</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="label">
+                                <label>Selected Crime Type:</label>
+                            </td>
+                            <td>
+                                <select class="form-control">
+                                    <option value="selected">{{crime_type}}</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="label">
+                                <label>Selected Year:</label>
+                            </td>
+                            <td>
+                                <select class="form-control">
+                                    <option value="selected" id="year">{{year}}</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <table class="table table-bordered mt-4">
+                    <tbody>
+                        <tr>
+                            <td class="result">City category:</td>
+                            <td class="result">{{city_categ}}</td>
+                        </tr>
+                        <tr>
+                            <td class="result">Estimated number of crimes:</td>
+                            <td class="result">{{ crime_rate|round(4) }} / {{ "{:,.0f}".format(out_of_value).replace(',', ' ') }} people</td>
+                        </tr>
+                        <tr>
+                            <td class="result">Crime rate category:</td>
+                            <td class="result {{ 'low' if crime_categ == 'Low' else 'middle' if crime_categ == 'Middle' else 'high' }}">{{crime_categ}} ({{city_categ}})</td>
+                        </tr>
+                        <tr>
+                            <td class="result">Population (2022):</td>
+                            <td class="result">{{population}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-6">
+                <!-- Map container -->
+                <div id="map" class="mb-4"></div>
+
+                <!-- Chart container -->
+                <div class="chart-container mb-4">
+                    <canvas id="crimeRateChart"></canvas>
+                </div>
+
+                <div class="text-center">
+                    <a href="/"><button type="button" class="btn btn-primary">Let's Check Again</button></a>
+                </div>
+            </div>
+        </div>
+
+        <input type="hidden" id="crime_rate_minus" value="{{ crime_rate_minus }}">
+        <input type="hidden" id="crime_rate" value="{{ crime_rate }}">
+        <input type="hidden" id="crime_rate_plus" value="{{ crime_rate_plus }}">
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white text-center py-3 mt-auto">
+        <div class="container">
+            <p class="mb-0">&copy; 2024 Hungarian Crime Predictor. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="static/result.js"></script>
+    <script src="static/chart.js"></script>
+</body>
+
+</html>
