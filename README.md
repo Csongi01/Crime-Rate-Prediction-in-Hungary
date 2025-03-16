@@ -1,7 +1,7 @@
 <h1 align="center">👮 Crime Rate Prediction in Hungary 👮</h1>
 <p align="center">
     <strong>Author:</strong> Csongor Kapitány <br>
-    <strong>⚠️ Copyright:</strong> The source code is protected and may only be used with the author's explicit approval. ⚠️
+    <strong>⚠️ License:</strong> This project is licensed under the MIT License. ⚠️
 </p>
 
 <h3>📌 Abstract</h3>
