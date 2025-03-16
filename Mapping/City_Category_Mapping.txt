@@ -1,0 +1,5 @@
+Kisváros: 0
+Középfalvak: 1
+Középváros: 2
+Nagyfalvak: 3
+Nagyváros: 4

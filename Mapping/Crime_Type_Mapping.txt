@@ -1,0 +1,280 @@
+A bírósági végrehajtás akadályozása: 0
+A hulladékgazdálkodás rendjének megsértése: 1
+A költségvetési csaláshoz kapcsolódó felügyeleti vagy ellenőrzési kötelezettség elmulasztása: 2
+A közlekedés biztonsága elleni bűncselekmény: 3
+A nemzeti szocialista vagy kommunista rendszerek bűneinek nyilvános tagadása: 4
+A pénzmosással kapcsolatos bejelentési kötelezettség elmulasztása: 5
+A szolgálat megtagadása: 6
+A számvevőszéki ellenőrzéssel kapcsolatos kötelezettségek megszegése: 7
+A számvitel rendjének megsértése: 8
+A választás, a népszavazás, a népi kezdeményezés és az európai polgári kezdeményezés rendje elleni bűncselekmény: 9
+Alárendelt megsértése: 10
+Az alkotmányos rend erőszakos megváltoztatása: 11
+Az egyesülési és a gyülekezési szabadság megsértése: 12
+Az egyesülési, a gyülekezési szabadság, valamint a választási gyűlésen való részvétel jogának megsértése: 13
+Becsület csorbítására alkalmas hamis hang- vagy képfelvétel készítése: 14
+Becsület csorbítására alkalmas hamis hang- vagy képfelvétel nyilvánosságra hozatala: 15
+Becsületsértés: 16
+Befolyás vásárlása: 17
+Befolyással üzérkedés: 18
+Bennfentes kereskedelem: 19
+Bitorlás: 20
+Biztonsági okmány hamisítása: 21
+Bujtogatás: 22
+Bántalmazás hivatalos eljárásban: 23
+Bántalmazás közfeladatot ellátó személy eljárásában: 24
+Bélyeghamisítás: 25
+Bűnpártolás: 26
+Bűnszervezetben részvétel: 27
+Családi jogállás megsértése: 28
+Családi kapcsolatok létesítésével visszaélés: 29
+Csalás: 30
+Cserbenhagyás: 31
+Csődbűncselekmény: 32
+Egyedi azonosító jellel visszaélés: 33
+Egyesülési joggal visszaélés: 34
+Egészségügyi termék hamisítása: 35
+Egészségügyi önrendelkezési jog megsértése: 36
+Ellenőrzés elmulasztása: 37
+Elöljáró vagy szolgálati közeg elleni eroszak: 38
+Elöljáró vagy szolgálati közeg elleni erőszak: 39
+Elöljárói gondoskodás elmulasztása: 40
+Elöljárói hatalommal visszaélés: 41
+Elöljárói intézkedés elmulasztása: 42
+Embercsempészés: 43
+Emberen végezhető kutatás szabályainak megszegése: 44
+Emberi test tiltott felhasználása: 45
+Emberiesség elleni bűncselekmény: 46
+Emberkereskedelem: 47
+Emberkereskedelem és kényszermunka: 48
+Emberrablás: 49
+Emberölés: 50
+Engedély nélküli nemzetközi kereskedelmi tevékenység: 51
+Erős felindulásban elkövetett emberölés: 52
+Foglalkozás körében elkövetett veszélyeztetés: 53
+Fogolyszökés: 54
+Fogolyzendülés: 55
+Fogyasztók megtévesztése: 56
+Garázdaság: 57
+Gazdasági adatszolgáltatási kötelezettség elmulasztása: 58
+Gazdasági csalás: 59
+Gazdasági titok megsértése: 60
+Gondozási kötelezettség elmulasztása: 61
+Gyermekmunka: 62
+Gyermekpornográfia: 63
+Gyermekprostitúció kihasználása: 64
+Gyógyszerhamisítás: 65
+Gépjármű kilométer-számláló műszer által jelzett érték meghamisítása: 66
+Haditechnikai termékkel vagy szolgáltatással visszaélés: 67
+Hamis magánokirat felhasználása: 68
+Hamis tanúzás: 69
+Hamis tanúzásra felhívás: 70
+Hamis vád: 71
+Hanyag kezelés: 72
+Harmadik országbeli állampolgár jogellenes foglalkoztatása: 73
+Határzár megrongálása: 74
+Határzár tiltott átlépése: 75
+Hatóság félrevezetése: 76
+Hatósági eljárás megzavarása: 77
+Hatósági rendelkezés elleni uszítás: 78
+Hivatali vesztegetés: 79
+Hivatali vesztegetés elfogadása: 80
+Hivatali visszaélés: 81
+Hivatalos személy elleni erőszak: 82
+Hivatalos személy vagy közfeladatot ellátó személy támogatója elleni erőszak: 83
+Háborús uszítás: 84
+Hűtlen kezelés: 85
+Igazságszolgáltatással összefüggő titoksértés: 86
+Információs rendszer felhasználásával elkövetett csalás: 87
+Információs rendszer vagy adat megsértése: 88
+Információs rendszer védelmét biztosító technikai intézkedés kijátszása: 89
+Iparjogvédelmi jogok megsértése: 90
+Jelentési kötelezettség megszegése: 91
+Jogellenes fogvatartás: 92
+Jogellenes tartózkodás elősegítése: 93
+Jogellenesen átalakított személyszállítást végző jármű vezetése: 94
+Jogkezelési adat meghamisítása: 95
+Jogosulatlan pénzügyi tevékenység: 96
+Jogosulatlan titkos információgyűjtés vagy adatszerzés: 97
+Jogtalan elsajátítás: 98
+Jármű önkényes elvétele: 99
+Járművezetés az eltiltás hatálya alatt: 100
+Járművezetés bódult állapotban: 101
+Járművezetés ittas állapotban: 102
+Járművezetés tiltott átengedése: 103
+Járványügyi szabályszegés: 104
+Járványügyi védekezés akadályozása: 105
+Jövedékkel visszaélés elősegítése: 106
+Kapcsolati erőszak: 107
+Kegyeletsértés: 108
+Kerítés: 109
+Kettős felhasználású termékkel visszaélés: 110
+Kettős házasság: 111
+Kibúvás a szolgálat alól: 112
+Kifosztás: 113
+Kiskorú elhelyezésének megváltoztatása: 114
+Kiskorú veszélyeztetése: 115
+Kiskorúval való kapcsolattartás akadályozása: 116
+Kiszolgáltatott személy megalázása: 117
+Kitartottság: 118
+Korrupciós bűncselekmény feljelentésének elmulasztása: 119
+Kuruzslás: 120
+Kábítószer birtoklása: 121
+Kábítószer készítésének elősegítése: 122
+Kábítószer-kereskedelem: 123
+Kábítószer-prekurzorral visszaélés: 124
+Kémkedés: 125
+Kényszermunka: 126
+Kényszervallatás: 127
+Kényszerítés: 128
+Kényszerítés hatósági eljárásban: 129
+Készpénz-helyettesítő fizetési eszköz hamisítása: 130
+Készpénz-helyettesítő fizetési eszköz hamisításának elősegítése: 131
+Készpénz-helyettesítő fizetési eszközzel visszaélés: 132
+Kóros szenvedélykeltés: 133
+Költségvetési csalás: 134
+Környezetkárosítás: 135
+Kötelességszegés szolgálatban: 136
+Közbiztonsági tevékenység jogellenes szervezése: 137
+Közfeladati helyzettel visszaélés: 138
+Közfeladatot ellátó személy elleni erőszak: 139
+Közokirat-hamisítás: 140
+Közveszéllyel fenyegetés: 141
+Közveszély okozása: 142
+Közérdekű adattal visszaélés: 143
+Közérdekű üzem működésének megzavarása: 144
+Közösség elleni uszítás: 145
+Közösség tagja elleni erőszak: 146
+Közúti baleset okozása: 147
+Közúti veszélyeztetés: 148
+Levéltitok megsértése: 149
+Lopás: 150
+Lőfegyverrel vagy lőszerrel visszaélés: 151
+Magzatelhajtás: 152
+Magánlaksértés: 153
+Magántitok megsértése: 154
+Megfelelőség hamis tanúsítása: 155
+Mentő körülmény elhallgatása: 156
+Mező- és erdőgazdasági hasznosítású föld jogellenes megszerzése: 157
+Minősített adattal visszaélés: 158
+Méreggel visszaélés: 159
+Műemlék vagy védett kulturális javak megrongálása: 160
+Nemzeti jelkép megsértése: 161
+Nemzetközi szerződés által tiltott fegyverrel visszaélés: 162
+Nemzetközileg védett személy elleni erőszak: 163
+Okirattal visszaélés: 164
+Orgazdaság: 165
+Orvhalászat: 166
+Orvvadászat: 167
+Parancs iránti engedetlenség: 168
+Piramisjáték szervezése: 169
+Prostitúció elősegítése: 170
+Pénzhamisítás: 171
+Pénzhamisítás elősegítése: 172
+Pénzmosás: 173
+Rablás: 174
+Radioaktív anyaggal visszaélés: 175
+Rendbontás: 176
+Robbanóanyaggal vagy robbantószerrel visszaélés: 177
+Rongálás: 178
+Rossz minőségű termék forgalomba hozatala: 179
+Rágalmazás: 180
+Rémhírterjesztés: 181
+Saját tőke csorbítása: 182
+Segítségnyújtás elmulasztása: 183
+Sikkasztás: 184
+Sporteredmény tiltott befolyásolása: 185
+Személyes adattal visszaélés: 186
+Személyi szabadság megsértése: 187
+Szeméremsértés: 188
+Szerzői vagy szerzői joghoz kapcsolódó jogok megsértése: 189
+Szexuális erőszak: 190
+Szexuális kényszerítés: 191
+Szexuális visszaélés: 192
+Szolgálati feladat alóli kibúvás: 193
+Szolgálati tekintély megsértése: 194
+Szolgálati visszaélés: 195
+Szökés: 196
+Tanúvallomás jogosulatlan megtagadása: 197
+Tartozás fedezetének elvonása: 198
+Tartási kötelezettség elmulasztása: 199
+Teljesítményfokozó szerrel visszaélés: 200
+Természetkárosítás: 201
+Termőföld jogellenes megszerzése: 202
+Terrorcselekmény: 203
+Terrorcselekmény előkészülete: 204
+Testi sértés: 205
+Tiltott adatszerzés: 206
+Tiltott piacbefolyásolás: 207
+Tiltott szerencsejáték szervezése: 208
+Tiltott állatviadal szervezése: 209
+Társadalombiztosítási, szociális vagy más jóléti juttatással visszaélés: 210
+Tőkebefektetési csalás: 211
+Uzsora-bűncselekmény: 212
+Vasúti, légi vagy vízi közlekedés veszélyeztetése: 213
+Versenyt korlátozó megállapodás közbeszerzési és koncessziós eljárásban: 214
+Versenytárs utánzása: 215
+Vesztegetés: 216
+Vesztegetés bírósági vagy hatósági eljárásban: 217
+Vesztegetés elfogadása: 218
+Vesztegetés elfogadása bírósági vagy hatósági eljárásban: 219
+Veszélyes állat, illetve veszélyes eb tartásával kapcsolatos kötelezettség megszegése: 220
+Védelmet biztosító műszaki intézkedés kijátszása: 221
+Védett kulturális javakkal visszaélés: 222
+Védettségi igazolással való visszaélés: 223
+Vérfertőzés: 224
+Zaklatás: 225
+Zsarolás: 226
+Zugírászat: 227
+Zártörés: 228
+_A költségvetési csaláshoz kapcsolódó felügyeleti vagy ellenőrzési kötelezettség elmulasztása: 229
+_Az Európai Közösségek pénzügyi érdekeinek megsértése: 230
+_Befolyás vásárlása: 231
+_Befolyással üzérkedés: 232
+_Befolyással üzérkedés és befolyás vásárlása nemzetközi kapcsolatban: 233
+_Beutazási és tartózkodási tilalom megsértése: 234
+_Csempészet: 235
+_Egyesülési és gyülekezési szabadság megsértése: 236
+_Erőszakos közösülés: 237
+_Feljelentés elmulasztása: 238
+_Földmérési jel megrongálása: 239
+_Gazdálkodó szervezet vezető állású személyének visszaélése: 240
+_Hamis pénz kiadása: 241
+_Hamis statisztikai adatszolgáltatás: 242
+_Határjelrongálás: 243
+_Hitelezési csalás: 244
+_Hitelsértés: 245
+_Jogosulatlan gazdasági előny megszerzése: 246
+_Járművezetés ittas vagy bódult állapotban: 247
+_Jövedéki orgazdaság: 248
+_Kiskorú veszélyeztetése: 249
+_Költségvetési csalás: 250
+_Közszemérem megsértése: 251
+_Közérdekű bejelentő üldözése: 252
+_Megrontás: 253
+_Műemlék megrongálása: 254
+_Pénzhamisítás: 255
+_Szemérem elleni erőszak: 256
+_Szolgálati titoksértés: 257
+_Tartozás fedezetének elvonása: 258
+_Terrorcselekmény: 259
+_Vesztegetés: 260
+_Vesztegetés feljelentésének elmulasztása: 261
+_Visszaélés bizalmas minősítésű adattal: 262
+_Visszaélés haditechnikai termékkel és szolgáltatással, illetőleg kettős felhasználású termékkel: 263
+_Visszaélés jövedékkel: 264
+_Visszaélés korlátozott terjesztésű minősítésű adattal: 265
+_Visszaélés kábítószerrel: 266
+_Visszaélés szigorúan titkos és titkos minősítésű adattal: 267
+_Vásárlók megkárosítása: 268
+_Államtitoksértés: 269
+Állatkínzás: 270
+Ártalmas közfogyasztási cikkel visszaélés: 271
+Ózonréteget lebontó anyaggal visszaélés: 272
+Önbíráskodás: 273
+Öngyilkosságban közreműködés: 274
+Önkényes eltávozás: 275
+Önkényuralmi jelkép használata: 276
+Új pszichoaktív anyaggal visszaélés: 277
+Ügyvédi visszaélés: 278
+Üzleti titok megsértése: 279
